@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graphCon/static/css/main.68603bcf.chunk.css",
+    "main.js": "/graphCon/static/js/main.8fa83a48.chunk.js",
+    "main.js.map": "/graphCon/static/js/main.8fa83a48.chunk.js.map",
+    "runtime-main.js": "/graphCon/static/js/runtime-main.e0db775f.js",
+    "runtime-main.js.map": "/graphCon/static/js/runtime-main.e0db775f.js.map",
+    "static/js/2.5e7f8744.chunk.js": "/graphCon/static/js/2.5e7f8744.chunk.js",
+    "static/js/2.5e7f8744.chunk.js.map": "/graphCon/static/js/2.5e7f8744.chunk.js.map",
+    "index.html": "/graphCon/index.html",
+    "precache-manifest.297b14744bcc74eec7bbc477e9694295.js": "/graphCon/precache-manifest.297b14744bcc74eec7bbc477e9694295.js",
+    "service-worker.js": "/graphCon/service-worker.js",
+    "static/css/main.68603bcf.chunk.css.map": "/graphCon/static/css/main.68603bcf.chunk.css.map",
+    "static/js/2.5e7f8744.chunk.js.LICENSE.txt": "/graphCon/static/js/2.5e7f8744.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0db775f.js",
+    "static/js/2.5e7f8744.chunk.js",
+    "static/css/main.68603bcf.chunk.css",
+    "static/js/main.8fa83a48.chunk.js"
+  ]
+}
