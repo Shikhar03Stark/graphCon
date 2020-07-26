@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Menu from './components/Menu';
+import {data} from './fetch';
+import Datapoint from './components/Datapoint';
+import Canvas from './components/Canvas';
 import * as serviceWorker from './serviceWorker';
+//import './engine';
+
+let Datapoints = data.map((val, index) => {
+  return (
+    <Datapoint key = {data[index].key} x = {data[index].x} y = {data[index].y} />
+  );
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Menu />
+    <Canvas>
+      {Datapoints}
+    </Canvas>
   </React.StrictMode>,
   document.getElementById('root')
 );
